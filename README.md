@@ -1,4 +1,4 @@
-# SafeHEIC
+# OfflineHEIC
 
 Offline HEIC to JPG converter for Windows.
 
@@ -13,18 +13,18 @@ Offline HEIC to JPG converter for Windows.
 - English / Japanese UI
 - Open source
 
-## Why SafeHEIC?
+## Why OfflineHEIC?
 
 Many HEIC converters require uploading photos to external servers.
 
-SafeHEIC converts files locally on your Windows PC.
+OfflineHEIC converts files locally on your Windows PC.
 
 Your images never leave your machine.
 
 ## Download
 
 Download the latest version from GitHub Releases.
-[GitHub Releases](https://github.com/noboru-takahashi/SafeHEIC/releases)
+[GitHub Releases](https://github.com/noboru-takahashi/OfflineHEIC/releases)
 
 ## Usage
 
@@ -36,7 +36,7 @@ Download the latest version from GitHub Releases.
 
 macOS already supports HEIC files natively.
 
-SafeHEIC is mainly intended for Windows users who need a simple offline converter.
+OfflineHEIC is mainly intended for Windows users who need a simple offline converter.
 
 ## Open source
 
@@ -52,7 +52,7 @@ MIT License
 
 ---
 
-# SafeHEIC （日本語）
+# OfflineHEIC （日本語）
 
 Windows向けのオフライン HEIC → JPG 変換ツールです。
 
@@ -67,18 +67,18 @@ Windows向けのオフライン HEIC → JPG 変換ツールです。
 - 日本語 / 英語 UI
 - オープンソース
 
-## SafeHEIC について
+## OfflineHEIC について
 
 多くのHEIC変換サービスは画像をサーバへアップロードします。
 
-SafeHEIC は Windows PC 上でローカル変換を行います。
+OfflineHEIC は Windows PC 上でローカル変換を行います。
 
 画像データは外部へ送信されません。
 
 ## ダウンロード
 
 最新版は GitHub Releases から取得できます。
-[GitHub Releases](https://github.com/noboru-takahashi/SafeHEIC/releases)
+[GitHub Releases](https://github.com/noboru-takahashi/OfflineHEIC/releases)
 
 ## 使い方
 
@@ -90,7 +90,7 @@ SafeHEIC は Windows PC 上でローカル変換を行います。
 
 macOS は標準で HEIC をサポートしています。
 
-SafeHEIC は主に Windows ユーザー向けのツールです。
+OfflineHEIC は主に Windows ユーザー向けのツールです。
 
 ## ライセンス
 

@@ -12,7 +12,7 @@ from PIL import Image
 from pillow_heif import register_heif_opener
 
 
-APP_NAME = "SafeHEIC"
+APP_NAME = "OfflineHEIC"
 APP_VERSION = "0.1.0"
 
 
@@ -20,7 +20,7 @@ def resource_path(relative_path: str) -> str:
     if hasattr(sys, "_MEIPASS"):
         return str(Path(sys._MEIPASS) / relative_path)
 
-    # src/safeheic.py から見て、assets は1階層上
+    # src/offlineheic.py から見て、assets は1階層上
     project_root = Path(__file__).resolve().parent.parent
     return str(project_root / relative_path)
 
@@ -31,7 +31,7 @@ def settings_path() -> Path:
     if appdata:
         base = Path(appdata) / APP_NAME
     else:
-        base = Path.home() / ".safeheic"
+        base = Path.home() / ".offlineheic"
 
     base.mkdir(parents=True, exist_ok=True)
     return base / "settings.json"
@@ -63,7 +63,7 @@ TEXTS = {
 }
 
 
-class SafeHEICConverter:
+class OfflineHEICConverter:
     def __init__(self):
         register_heif_opener()
 
@@ -575,6 +575,6 @@ class SafeHEICConverter:
 
 
 if __name__ == "__main__":
-    app = SafeHEICConverter()
+    app = OfflineHEICConverter()
     app.run()
     
