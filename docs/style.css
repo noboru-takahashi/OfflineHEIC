@@ -131,7 +131,9 @@ main {
     color: #1f6feb;
 }
 
-.usage {
+.usage,
+.information,
+.faq {
     margin-top: 70px;
 
     background: white;
@@ -144,7 +146,9 @@ main {
         0 4px 16px rgba(0,0,0,0.05);
 }
 
-.usage h2 {
+.usage h2,
+.information h2,
+.faq h2 {
     margin-top: 0;
 }
 
@@ -162,4 +166,60 @@ footer {
 
     color: #6b7280;
     font-size: 14px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.information p,
+.faq p {
+    margin-bottom: 0;
+    line-height: 1.7;
+    color: #4b5563;
+}
+
+.faq-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px 40px;
+}
+
+.faq h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.faq p {
+    margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding-top: 56px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .tagline {
+        font-size: 21px;
+    }
+
+    .screenshot {
+        width: 100%;
+    }
+
+    .usage,
+    .information,
+    .faq {
+        padding: 28px;
+    }
+
+    .faq-list {
+        grid-template-columns: 1fr;
+    }
 }
